@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Flame-Bold.otf",
+      "sha1": "c6c857c1407e8cd9ba72bac35ed16db58de95a74"
+    },
+    {
+      "path": "assets/fonts/Flame-Regular.otf",
+      "sha1": "99f3a86be2e38a30aa37ad06369dc66c029189a4"
+    },
+    {
+      "path": "assets/fonts/TOYZ.ttf",
+      "sha1": "aafc6162ec6d3c53a4ddf6861bfc315523f356c1"
+    }
+  ]
+}
