@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Domino BoId Italic.otf",
+      "sha1": "f60b1cb9f5d4a26311b7d41001ad7cdde749a60c"
+    },
+    {
+      "path": "src/assets/fonts/Domino Bold Reverse Italic.otf",
+      "sha1": "ac9ad7019c9bfe2c46b336c175688e2151228903"
+    },
+    {
+      "path": "src/assets/fonts/Domino Bold.otf",
+      "sha1": "7c4669e842750bfbe7e8575717e814d7791b77cb"
+    },
+    {
+      "path": "src/assets/fonts/Domino Italic.otf",
+      "sha1": "5afb7f934b17de170b5047a5a59c338c6619d3e1"
+    },
+    {
+      "path": "src/assets/fonts/Domino Regular.otf",
+      "sha1": "7d4d554c6cbd3b42d782337f52ed37c96a3971d2"
+    },
+    {
+      "path": "src/assets/fonts/DomIno Reverse Italic.otf",
+      "sha1": "cd1fa568a1d74345d4b68636e83003daefa74397"
+    }
+  ]
+}

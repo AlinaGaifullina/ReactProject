@@ -14,6 +14,12 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-ReactProject-ReactProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactProject-ReactProjectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E4B2F968AA574869AC23B7F7 /* Domino BoId Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09F87C8AA7AD449AAFA85865 /* Domino BoId Italic.otf */; };
+		A4C557793AB44210B97C4A87 /* Domino Bold Reverse Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6477D3D8E2A74E9DA1597F3E /* Domino Bold Reverse Italic.otf */; };
+		ADE41A60D50C4E259BFB8C71 /* Domino Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A78175DD46314A08937AAAA8 /* Domino Bold.otf */; };
+		FCC5A8426FC04DE89C97C181 /* Domino Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 91B92812178F410FBF7961AA /* Domino Italic.otf */; };
+		9EDA3B0136894004BD597EFD /* Domino Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 669C68BD885A4A00BF107BAB /* Domino Regular.otf */; };
+		99476F9FB0D34B4DBB77B785 /* DomIno Reverse Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2CDE266ECF4CDA836A1F13 /* DomIno Reverse Italic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ReactProject-ReactProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactProject-ReactProjectTests.release.xcconfig"; path = "Target Support Files/Pods-ReactProject-ReactProjectTests/Pods-ReactProject-ReactProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		09F87C8AA7AD449AAFA85865 /* Domino BoId Italic.otf */ = {isa = PBXFileReference; name = "Domino BoId Italic.otf"; path = "../src/assets/fonts/Domino BoId Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6477D3D8E2A74E9DA1597F3E /* Domino Bold Reverse Italic.otf */ = {isa = PBXFileReference; name = "Domino Bold Reverse Italic.otf"; path = "../src/assets/fonts/Domino Bold Reverse Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A78175DD46314A08937AAAA8 /* Domino Bold.otf */ = {isa = PBXFileReference; name = "Domino Bold.otf"; path = "../src/assets/fonts/Domino Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		91B92812178F410FBF7961AA /* Domino Italic.otf */ = {isa = PBXFileReference; name = "Domino Italic.otf"; path = "../src/assets/fonts/Domino Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		669C68BD885A4A00BF107BAB /* Domino Regular.otf */ = {isa = PBXFileReference; name = "Domino Regular.otf"; path = "../src/assets/fonts/Domino Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D2CDE266ECF4CDA836A1F13 /* DomIno Reverse Italic.otf */ = {isa = PBXFileReference; name = "DomIno Reverse Italic.otf"; path = "../src/assets/fonts/DomIno Reverse Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +136,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				1E791CA464414725AA0CDE7D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +162,20 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		1E791CA464414725AA0CDE7D /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				09F87C8AA7AD449AAFA85865 /* Domino BoId Italic.otf */,
+				6477D3D8E2A74E9DA1597F3E /* Domino Bold Reverse Italic.otf */,
+				A78175DD46314A08937AAAA8 /* Domino Bold.otf */,
+				91B92812178F410FBF7961AA /* Domino Italic.otf */,
+				669C68BD885A4A00BF107BAB /* Domino Regular.otf */,
+				9D2CDE266ECF4CDA836A1F13 /* DomIno Reverse Italic.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +272,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E4B2F968AA574869AC23B7F7 /* Domino BoId Italic.otf in Resources */,
+				A4C557793AB44210B97C4A87 /* Domino Bold Reverse Italic.otf in Resources */,
+				ADE41A60D50C4E259BFB8C71 /* Domino Bold.otf in Resources */,
+				FCC5A8426FC04DE89C97C181 /* Domino Italic.otf in Resources */,
+				9EDA3B0136894004BD597EFD /* Domino Regular.otf in Resources */,
+				99476F9FB0D34B4DBB77B785 /* DomIno Reverse Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
