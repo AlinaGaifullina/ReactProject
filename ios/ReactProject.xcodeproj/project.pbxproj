@@ -14,6 +14,17 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-ReactProject-ReactProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactProject-ReactProjectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AF324AD90370419FBCA408FF /* Arturo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 693F5C78AA2E4C469FD19F89 /* Arturo-Bold.ttf */; };
+		4AC202FFA52A43598E9CDDCD /* Arturo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32891904B3544142AE31472C /* Arturo-BoldItalic.ttf */; };
+		1326F62D3F8A4F6796E39592 /* Arturo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C54FCC059DD3412394D9999D /* Arturo-ExtraLight.ttf */; };
+		0D604D0920504740BFF22ED4 /* Arturo-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BFC79F67724AA6818729AB /* Arturo-ExtraLightItalic.ttf */; };
+		6D3B72592ADD4A4D8444AFD2 /* Arturo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C34D947E620742F38489F37B /* Arturo-Italic.ttf */; };
+		03050F7E3A094782B9A053D1 /* Arturo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17CA60B74F6A47B0A861128E /* Arturo-Light.ttf */; };
+		D14389CDC5B94645B487BC23 /* Arturo-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 964663D1B9024188BBA47688 /* Arturo-LightItalic.ttf */; };
+		A83394BEE34E4E1B9C0C4B1B /* Arturo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F81289A3536E4B5B82E758E5 /* Arturo-Regular.ttf */; };
+		939F14ED5C8E4AE180482655 /* Arturo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EF91B81D1B849DE91535191 /* Arturo-Thin.ttf */; };
+		01576076E53B4285A4B9BB48 /* Arturo-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BCA876F444B4DD5A1BC0D72 /* Arturo-ThinItalic.ttf */; };
+		54CE0C53A8C44852A8160475 /* pershotravneva55-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAB63C4DA7754F19A2035BAE /* pershotravneva55-regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,17 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ReactProject-ReactProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactProject-ReactProjectTests.release.xcconfig"; path = "Target Support Files/Pods-ReactProject-ReactProjectTests/Pods-ReactProject-ReactProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		693F5C78AA2E4C469FD19F89 /* Arturo-Bold.ttf */ = {isa = PBXFileReference; name = "Arturo-Bold.ttf"; path = "../src/assets/fonts/Arturo-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		32891904B3544142AE31472C /* Arturo-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Arturo-BoldItalic.ttf"; path = "../src/assets/fonts/Arturo-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C54FCC059DD3412394D9999D /* Arturo-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Arturo-ExtraLight.ttf"; path = "../src/assets/fonts/Arturo-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D7BFC79F67724AA6818729AB /* Arturo-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Arturo-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Arturo-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C34D947E620742F38489F37B /* Arturo-Italic.ttf */ = {isa = PBXFileReference; name = "Arturo-Italic.ttf"; path = "../src/assets/fonts/Arturo-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		17CA60B74F6A47B0A861128E /* Arturo-Light.ttf */ = {isa = PBXFileReference; name = "Arturo-Light.ttf"; path = "../src/assets/fonts/Arturo-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		964663D1B9024188BBA47688 /* Arturo-LightItalic.ttf */ = {isa = PBXFileReference; name = "Arturo-LightItalic.ttf"; path = "../src/assets/fonts/Arturo-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F81289A3536E4B5B82E758E5 /* Arturo-Regular.ttf */ = {isa = PBXFileReference; name = "Arturo-Regular.ttf"; path = "../src/assets/fonts/Arturo-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1EF91B81D1B849DE91535191 /* Arturo-Thin.ttf */ = {isa = PBXFileReference; name = "Arturo-Thin.ttf"; path = "../src/assets/fonts/Arturo-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BCA876F444B4DD5A1BC0D72 /* Arturo-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Arturo-ThinItalic.ttf"; path = "../src/assets/fonts/Arturo-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EAB63C4DA7754F19A2035BAE /* pershotravneva55-regular.ttf */ = {isa = PBXFileReference; name = "pershotravneva55-regular.ttf"; path = "../src/assets/fonts/pershotravneva55-regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +146,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				EB31C5D7A4D94CD1ACF2F8BE /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +172,25 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		EB31C5D7A4D94CD1ACF2F8BE /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				693F5C78AA2E4C469FD19F89 /* Arturo-Bold.ttf */,
+				32891904B3544142AE31472C /* Arturo-BoldItalic.ttf */,
+				C54FCC059DD3412394D9999D /* Arturo-ExtraLight.ttf */,
+				D7BFC79F67724AA6818729AB /* Arturo-ExtraLightItalic.ttf */,
+				C34D947E620742F38489F37B /* Arturo-Italic.ttf */,
+				17CA60B74F6A47B0A861128E /* Arturo-Light.ttf */,
+				964663D1B9024188BBA47688 /* Arturo-LightItalic.ttf */,
+				F81289A3536E4B5B82E758E5 /* Arturo-Regular.ttf */,
+				1EF91B81D1B849DE91535191 /* Arturo-Thin.ttf */,
+				1BCA876F444B4DD5A1BC0D72 /* Arturo-ThinItalic.ttf */,
+				EAB63C4DA7754F19A2035BAE /* pershotravneva55-regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +287,17 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AF324AD90370419FBCA408FF /* Arturo-Bold.ttf in Resources */,
+				4AC202FFA52A43598E9CDDCD /* Arturo-BoldItalic.ttf in Resources */,
+				1326F62D3F8A4F6796E39592 /* Arturo-ExtraLight.ttf in Resources */,
+				0D604D0920504740BFF22ED4 /* Arturo-ExtraLightItalic.ttf in Resources */,
+				6D3B72592ADD4A4D8444AFD2 /* Arturo-Italic.ttf in Resources */,
+				03050F7E3A094782B9A053D1 /* Arturo-Light.ttf in Resources */,
+				D14389CDC5B94645B487BC23 /* Arturo-LightItalic.ttf in Resources */,
+				A83394BEE34E4E1B9C0C4B1B /* Arturo-Regular.ttf in Resources */,
+				939F14ED5C8E4AE180482655 /* Arturo-Thin.ttf in Resources */,
+				01576076E53B4285A4B9BB48 /* Arturo-ThinItalic.ttf in Resources */,
+				54CE0C53A8C44852A8160475 /* pershotravneva55-regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

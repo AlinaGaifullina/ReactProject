@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Arturo-Bold.ttf",
+      "sha1": "4248c0acbc6f902cb92c2af1abd748894208aae2"
+    },
+    {
+      "path": "src/assets/fonts/Arturo-BoldItalic.ttf",
+      "sha1": "aed93ba08342e10a74fa3c4708ed7698d2043169"
+    },
+    {
+      "path": "src/assets/fonts/Arturo-ExtraLight.ttf",
+      "sha1": "8fccd8f400812dbefbe9b168f30e0ac0aeef4e3a"
+    },
+    {
+      "path": "src/assets/fonts/Arturo-ExtraLightItalic.ttf",
+      "sha1": "4379b35ff04132630994d287612cf9aa99a350d3"
+    },
+    {
+      "path": "src/assets/fonts/Arturo-Italic.ttf",
+      "sha1": "cbe5efb359c4d446b9eb4b1e60da2d1faa2e69ee"
+    },
+    {
+      "path": "src/assets/fonts/Arturo-Light.ttf",
+      "sha1": "d279757c1a53b040e6da656790344d46ad42f07b"
+    },
+    {
+      "path": "src/assets/fonts/Arturo-LightItalic.ttf",
+      "sha1": "cde73f61abcf12805d29d1c453772321e68dd1ae"
+    },
+    {
+      "path": "src/assets/fonts/Arturo-Regular.ttf",
+      "sha1": "19e34873a958ae75562ac3db7a1b718ca7172fa2"
+    },
+    {
+      "path": "src/assets/fonts/Arturo-Thin.ttf",
+      "sha1": "ca17e7b54d8e0451932548d26a423d69a1b38d82"
+    },
+    {
+      "path": "src/assets/fonts/Arturo-ThinItalic.ttf",
+      "sha1": "dcf2f469ef4d82a2f0a8325247e2230944f77820"
+    },
+    {
+      "path": "src/assets/fonts/pershotravneva55-regular.ttf",
+      "sha1": "66dc19d185a5cd9a25578ef2fe2f69c6a75ab5a9"
+    }
+  ]
+}

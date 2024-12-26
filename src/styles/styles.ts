@@ -5,25 +5,38 @@ export const useStyles = (colors: IColors) =>
   StyleSheet.create({
     content: {
       flex: 1,
-      padding: 20,
+      paddingHorizontal: 16,
       backgroundColor: colors.backgroundPrimary,
     },
     buttonContainer: {
       paddingVertical: 4,
       width: '100%',
-      marginTop: 10
+      marginTop: 10,
     },
     button: {
       backgroundColor: colors.accentDefault,
       borderRadius: 20,
       justifyContent: 'center',
       height: 50,
+      flexDirection: 'row',
+      alignItems: 'center',
+      paddingHorizontal: 16,
+    },
+    buttonContent: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      width: '100%',
     },
     buttonText: {
       color: colors.textSecondary,
       fontSize: 22,
-      textAlign: 'center',
+      textAlign: 'left',
+      fontFamily: 'Arturo-LightItalic',
       flexShrink: 1,
+    },
+    icon: {
+      marginLeft: 10,
     },
     textCard: {
       backgroundColor: colors.backgroundPrimary,
@@ -44,6 +57,15 @@ export const useStyles = (colors: IColors) =>
     textCardTitle: {
       fontSize: 20,
       color: colors.textPrimary,
+      textAlign: 'center',
+      fontFamily: 'Arturo-Regular',
+      flexShrink: 1,
+    },
+    titleText: {
+      color: colors.textPrimary,
+      fontFamily: 'pershotravneva55-regular',
+      fontSize: 40,
+      paddingVertical: 24,
       textAlign: 'center',
       flexShrink: 1,
     },
