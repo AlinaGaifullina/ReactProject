@@ -16,6 +16,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 
+  taskTitle: {
+    color: '#000000',
+    fontSize: 26,
+    fontFamily: 'Domino BoId Italic',
+    flexShrink: 1,
+  },
+
   taskText: {
     color: '#000000',
     fontSize: 22,
@@ -28,7 +35,8 @@ const styles = StyleSheet.create({
   },
   remove: {
     color: 'red',
-    fontSize: 18,
+    fontSize: 26,
+    fontFamily: 'Domino Bold',
   },
   containerHome: {
     flex: 1,
@@ -41,6 +49,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     marginBottom: 10,
     paddingHorizontal: 10,
+    fontSize: 18,
+    fontFamily: 'Domino Regular',
   },
   buttonContainer: {
     paddingVertical: 4,

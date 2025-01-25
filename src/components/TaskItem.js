@@ -22,13 +22,16 @@ const TaskItem = ({ todo, onToggle, onRemove }) => {
   return (
     <View style={styles.taskContainerBorder}>
       <View style={styles.taskContainer}>
-        <Text style={[styles.taskText]}>
-          {todo.text}
+        <Text style={[styles.taskTitle]}>
+          {todo.title}
         </Text>
         <TouchableOpacity onPress={handleRemove}>
           <Text style={styles.remove}>X</Text>
         </TouchableOpacity>
       </View>
+      <Text style={[styles.taskText]}>
+        {todo.text}
+      </Text>
       <View style={styles.buttonContainer}>
         <TouchableOpacity
           style={todo.completed ? styles.buttonCompleted : styles.button}

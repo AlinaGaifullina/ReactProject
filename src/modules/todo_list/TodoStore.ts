@@ -1,31 +1,46 @@
 import { makeAutoObservable } from 'mobx';
 import Task from './Task.ts';
+import TaskService from './TaskService.ts';
 
 export class TodoStore {
   taskList: Task[] = [];
+  taskService = new TaskService();
 
   constructor() {
     makeAutoObservable(this);
+    this.getTasks();
   }
 
-  addTodo(text: string) {
-    this.taskList.push(new Task(text, false));
-    console.log('Updated taskList:', this.taskList);
-  }
+  getTasks = () => {
+    this.taskList = this.taskService.getTasks();
+  };
 
-  toggleTodo(index: number) {
-    this.taskList = this.taskList.map((task, i) => {
-      if (i === index) {
-        return {
-          ...task,
-          completed: !task.completed,
-        };
-      }
-      return task;
+  addTask(title: string, text: string) {
+
+    this.taskService.createTask({
+      title: title,
+      text: text,
+      completed: false,
     });
+
+    this.getTasks();
   }
 
-  removeTodo(index: number) {
-    this.taskList = this.taskList.filter((_, i) => i !== index);
+  toggleTask = (index: number) => {
+    const taskToToggle = this.taskList[index];
+
+    const updatedTask = {
+      ...taskToToggle,
+      completed: !taskToToggle.completed,
+    };
+
+    this.taskService.updateTask(taskToToggle, updatedTask);
+    this.getTasks();
+  };
+
+  removeTask(index: number) {
+    const taskToDelete = this.taskList[index];
+    this.taskService.deleteTask(taskToDelete);
+    this.getTasks();
   }
 }

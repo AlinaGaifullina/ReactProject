@@ -1,10 +1,18 @@
-export class Task{
-  text: string;
-  completed: boolean;
-  constructor(text: string, completed: boolean) {
-    this.text = text;
-    this.completed = completed;
-  }
-}
+import Realm, {ObjectSchema} from 'realm';
 
-export default Task;
+export const TaskTable = 'Task';
+
+export default class Task extends Realm.Object<Task>{
+  title!: string;
+  text!: string;
+  completed!: boolean;
+
+  static schema: ObjectSchema = {
+    name: TaskTable,
+    properties: {
+      title: 'string',
+      text: 'string',
+      completed: 'bool',
+    },
+  };
+}
